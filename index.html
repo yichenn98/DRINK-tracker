@@ -1,0 +1,94 @@
+<<<<<<< HEAD
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>2026 手搖成癮病歷表</title>
+    
+    <!-- iOS PWA 支援 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="手搖病歷表">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3063/3063822.png">
+    <link rel="manifest" href="/assets/manifest-szvRfuSK.json">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- 引入 Babel 讓瀏覽器能讀懂 TSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <style>
+        :root {
+            --safe-top: env(safe-area-inset-top);
+            --safe-bottom: env(safe-area-inset-bottom);
+        }
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #ffffff;
+            background-image: linear-gradient(#f0f0f0 1px, transparent 1px);
+            background-size: 100% 2.5rem;
+            color: #5D5D5D;
+            min-height: 100vh;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .card-shadow {
+            box-shadow: 0 10px 30px -5px rgba(0,0,0,0.05), 0 4px 10px -5px rgba(0,0,0,0.02);
+        }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
+        
+        input {
+            -webkit-appearance: none;
+            border-radius: 0.5rem;
+        }
+
+        /* 針對 iOS 全螢幕模式優化 */
+        @media (display-mode: standalone) {
+            body {
+                padding-top: var(--safe-top);
+            }
+        }
+    </style>
+
+
+<link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-sMZxqUe3.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DQ3P1g1z.css">
+</head>
+<body>
+    <div id="root"></div>
+    <!-- 使用 data-type="module" 與 type="text/babel" 讓 Babel 處理 index.tsx -->
+    <script type="text/babel" data-type="module" src="index.tsx"></script>
+</body>
+=======
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>drink-tracker</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+>>>>>>> 8561586 (initial commit)
+</html>

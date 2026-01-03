@@ -1,0 +1,17 @@
+
+{
+  "name": "2026 手搖成癮病歷表",
+  "short_name": "手搖病歷",
+  "description": "2026 飲品攝取追蹤工具",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3063/3063822.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
